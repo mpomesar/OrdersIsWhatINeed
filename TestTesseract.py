@@ -4,6 +4,7 @@ from os import walk
 from os.path import isfile,join
 import sys
 from glob import glob
+from pdf2image import convert_from_path
 
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Users\\Marti\\AppData\\Local\\Tesseract-OCR\\tesseract.exe'
 
@@ -17,9 +18,8 @@ def GetFiles(route="./Dataset/"):
     return listfiles_def
 
 def ReadImage(filename=".\\"):
-    pass
 
-
+    return "lala"
 
 
 
